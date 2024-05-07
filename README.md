@@ -27,7 +27,11 @@ The following labs are available:
 | Path | Description | Article |
 |---|---|---|
 | [kind-cilium](./kind-cilium) | [Setting up Load Balancer Service with Cilium in KinD Cluster] | [Setting up Load Balancer Service with Cilium in KinD Cluster] |
+| [kubeval](./resources-validation/kubeval) | [kubeval review] | [kubeval review] |
+| [kubeconform](./resources-validation/kubeconform) | [kubeconform review] | [kubeconform review] |
 
 ---
 
 [Setting up Load Balancer Service with Cilium in KinD Cluster]: https://fence-io.github.io/website/articles/networking/
+[kubeval review]: https://fence-io.github.io/website/articles/k8s-resources-validation/kubeval/
+[kubeconform review]: https://fence-io.github.io/website/articles/k8s-resources-validation/kubeconform/
