@@ -1,13 +1,33 @@
 # playground
 
-## Requirements
+This repository contains fence.io labs.
 
-- [KinD](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
-- [Gum](https://github.com/charmbracelet/gum?tab=readme-ov-file#installation)
-- If you are on macOS you need to install [Docker Mac Net Connect](https://github.com/chipmk/docker-mac-net-connect?tab=readme-ov-file#installation)
-- [Helm](https://helm.sh/docs/intro/install/)
-- [CiliumCLI](https://github.com/cilium/cilium-cli)
+We use [devbox](https://www.jetify.com/devbox) to provide the best user experience.
 
-## Usage
+# Running labs
 
-Run `./play.sh` and follow the instructions.
+Installing devbox is not mandatory, you can also use codespaces or dev containers.
+
+## Installing devbox
+
+Simply run the command below and follow instructions:
+
+```bash
+curl -fsSL https://get.jetify.com/devbox | bash
+```
+
+## Running a lab with devbox
+
+Once devbox is installed, simply enter a lab and run `devbox shell` or `devbox run setup`.
+
+# Available labs
+
+The following labs are available:
+
+| Path | Description | Article |
+|---|---|---|
+| [kind-cilium](./kind-cilium) | [Setting up Load Balancer Service with Cilium in KinD Cluster] | [Setting up Load Balancer Service with Cilium in KinD Cluster] |
+
+---
+
+[Setting up Load Balancer Service with Cilium in KinD Cluster]: https://fence-io.github.io/website/articles/networking/
