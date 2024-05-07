@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.6/.schema/devbox.schema.json",
+  "packages": [
+    "glow@1.5.1",
+    "kubeconform@0.6.4"
+  ],
+  "shell": {
+    "init_hook": [
+      "glow README.md"
+    ],
+    "scripts": {}
+  }
+}
