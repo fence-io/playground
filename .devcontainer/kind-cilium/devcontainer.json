@@ -4,5 +4,5 @@
   "workspaceMount": "source=${localWorkspaceFolder}/kind-cilium,target=/workspace,type=bind",
   "workspaceFolder": "/workspace",
   "remoteUser": "devbox",
-  "postAttachCommand": "devbox shell"
+  "postCreateCommand": "devbox shell"
 }
