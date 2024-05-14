@@ -1,6 +1,9 @@
 {
   "name": "kind-cilium",
   "image": "jetpackio/devbox:latest",
-  "workspaceMount": "source=${localWorkspaceFolder}/kind-cilium,target=/workspace,type=bind",
-  "workspaceFolder": "/workspace"
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  }
+  // "workspaceMount": "source=${localWorkspaceFolder}/kind-cilium,target=/workspace,type=bind",
+  // "workspaceFolder": "/workspace"
 }
