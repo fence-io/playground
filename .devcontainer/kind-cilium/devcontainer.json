@@ -1,16 +1,8 @@
 {
   "name": "kind-cilium",
-  "build": {
-    "dockerfile": "./Dockerfile",
-    "context": "../../kind-cilium"
-  },
-  "customizations": {
-    "vscode": {
-      "settings": {},
-      "extensions": [
-        "jetpack-io.devbox"
-      ]
-    }
-  },
-  "remoteUser": "devbox"
+  "image": "jetpackio/devbox:latest",
+  "workspaceMount": "source=${localWorkspaceFolder}/kind-cilium,target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "devbox",
+  "postStartCommand": "devbox shell"
 }
