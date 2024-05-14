@@ -6,7 +6,8 @@
     "cilium-cli@0.16.5",
     "curl@8.7.1",
     "glow@1.5.1",
-    "docker@24.0.5"
+    "docker@24.0.5",
+    "kubectl@1.29.4"
   ],
   "shell": {
     "init_hook": [
