@@ -1,8 +1,8 @@
 {
-  "name": "Devbox Remote Container",
+  "name": "kind-cilium",
   "build": {
     "dockerfile": "./Dockerfile",
-    "context": ".."
+    "context": "../../kind-cilium"
   },
   "customizations": {
     "vscode": {
