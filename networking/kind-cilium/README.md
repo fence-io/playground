@@ -1,6 +1,6 @@
 # kind-cilium lab
 
-This lab accompanies the article [Setting up Load Balancer Service with Cilium in KinD Cluster](https://fence-io.github.io/website/articles/networking/).
+This lab accompanies the article [Setting up Load Balancer Service with Cilium in KinD Cluster](https://fence-io.github.io/website/articles/networking/setting-up-load-balancer-service-with-cilium-in-kind-cluster/).
 
 ## Running on Linux
 

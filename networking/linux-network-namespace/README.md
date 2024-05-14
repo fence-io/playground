@@ -1,6 +1,6 @@
 # Linux Network Namespace lab
 
-This lab accompanies the article [Diving deep into Container Networking: An Exploration of Linux Network Namespace](https://fence-io.github.io/website/articles/networking/linux-network-namespace).
+This lab accompanies the article [Diving deep into Container Networking: An Exploration of Linux Network Namespace](https://fence-io.github.io/website/articles/networking/diving-deep-into-container-networking/).
 
 ## Requirements
 

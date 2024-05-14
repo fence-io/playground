@@ -29,11 +29,11 @@ The following labs are available:
 | [kind-cilium](./networking/kind-cilium) | [Setting up Load Balancer Service with Cilium in KinD Cluster] | [Setting up Load Balancer Service with Cilium in KinD Cluster] |
 | [kubeval](./resources-validation/kubeval) | [kubeval review] | [kubeval review] |
 | [kubeconform](./resources-validation/kubeconform) | [kubeconform review] | [kubeconform review] |
-| [Linux-Network-Namespace](./networking/linux-network-namespace) | [Diving deep into Container Networking: An Exploration of Linux Network Namespace] | [Diving deep into Container Networking: An Exploration of Linux Network Namespace] |
+| [Linux-Network-Namespace](.https://fence-io.github.io/website/articles/networking/diving-deep-into-container-networking/) | [Diving deep into Container Networking: An Exploration of Linux Network Namespace] | [Diving deep into Container Networking: An Exploration of Linux Network Namespace] |
 
 ---
 
-[Setting up Load Balancer Service with Cilium in KinD Cluster]: https://fence-io.github.io/website/articles/networking/load-balancer-cilium-kind
-[kubeval review]: https://fence-io.github.io/website/articles/k8s-resources-validation/kubeval/
-[kubeconform review]: https://fence-io.github.io/website/articles/k8s-resources-validation/kubeconform/
-[Diving deep into Container Networking: An Exploration of Linux Network Namespace]: https://fence-io.github.io/website/articles/networking/linux-network-namespace
+[Setting up Load Balancer Service with Cilium in KinD Cluster]: https://fence-io.github.io/website/articles/networking/setting-up-load-balancer-service-with-cilium-in-kind-cluster/
+[kubeval review]: https://fence-io.github.io/website/articles/k8s-resources-validation/kubeval-review/
+[kubeconform review]: https://fence-io.github.io/website/articles/k8s-resources-validation/kubeconform-review/
+[Diving deep into Container Networking: An Exploration of Linux Network Namespace]: https://fence-io.github.io/website/articles/networking/diving-deep-into-container-networking/
