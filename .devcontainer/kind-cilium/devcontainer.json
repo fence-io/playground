@@ -1,5 +1,6 @@
 {
   "name": "kind-cilium",
+  "image": "jetpackio/devbox:latest",
   "workspaceMount": "source=${localWorkspaceFolder}/kind-cilium,target=/workspace,type=bind",
   "workspaceFolder": "/workspace"
 }
