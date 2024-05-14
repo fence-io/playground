@@ -29,7 +29,7 @@ The following labs are available:
 | [kind-cilium](./networking/kind-cilium) | [Setting up Load Balancer Service with Cilium in KinD Cluster] | [Setting up Load Balancer Service with Cilium in KinD Cluster] |
 | [kubeval](./resources-validation/kubeval) | [kubeval review] | [kubeval review] |
 | [kubeconform](./resources-validation/kubeconform) | [kubeconform review] | [kubeconform review] |
-| [Linux-Network-Namespace](.https://fence-io.github.io/website/articles/networking/diving-deep-into-container-networking/) | [Diving deep into Container Networking: An Exploration of Linux Network Namespace] | [Diving deep into Container Networking: An Exploration of Linux Network Namespace] |
+| [Linux-Network-Namespace](./networking/linux-network-namespace) | [Diving deep into Container Networking: An Exploration of Linux Network Namespace] | [Diving deep into Container Networking: An Exploration of Linux Network Namespace] |
 
 ---
 
