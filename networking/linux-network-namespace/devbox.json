@@ -1,7 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.6/.schema/devbox.schema.json",
   "packages": [ 
-    "glow@1.5.1"
+    "glow@1.5.1",
+    "util-linux@2.39.3",
+    "unixtools.ping",
+    "kmod"
   ],
   "shell": {
     "init_hook": [
