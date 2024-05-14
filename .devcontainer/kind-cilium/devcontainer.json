@@ -3,7 +3,7 @@
   "image": "jetpackio/devbox:latest",
   "features": {
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
-  }
-  // "workspaceMount": "source=${localWorkspaceFolder}/kind-cilium,target=/workspace,type=bind",
-  // "workspaceFolder": "/workspace"
+  },
+  "workspaceMount": "source=${localWorkspaceFolder}/kind-cilium,target=/workspace,type=bind",
+  "workspaceFolder": "/workspace"
 }
