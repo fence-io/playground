@@ -10,4 +10,9 @@ If you're on macOS, you can utilize a virtual machine instead. (Check [UTM setup
 
 # Execute lab
 
-To execute this lab with [devbox](https://www.jetify.com/devbox) run `devbox run setup`.
+To execute this lab with [devbox](https://www.jetify.com/devbox) run:
+
+```
+sudo -i
+devbox run setup
+```
