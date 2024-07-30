@@ -1,0 +1,10 @@
+{
+  "name": "kubewarden",
+  "image": "jetpackio/devbox:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+  "workspaceMount": "source=${localWorkspaceFolder}/policy-engines/kubewarden,target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+  "postAttachCommand": "sudo apt update && sudo apt install unzip && ./setup.sh && devbox shell"
+}

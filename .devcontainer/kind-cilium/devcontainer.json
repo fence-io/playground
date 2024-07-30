@@ -4,7 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
   },
-  "workspaceMount": "source=${localWorkspaceFolder}/kind-cilium,target=/workspace,type=bind",
+  "workspaceMount": "source=${localWorkspaceFolder}/networking/kind-cilium,target=/workspace,type=bind",
   "workspaceFolder": "/workspace",
   "postAttachCommand": "devbox shell"
 }
